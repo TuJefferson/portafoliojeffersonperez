@@ -2663,6 +2663,11 @@ html.no-csstransitions .home-content__main {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.center{
+  box-align: center;
+}
+
+
 .s-services::before {
   display: block;
   content: "";
