@@ -2516,6 +2516,10 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
+.justificado{
+  text-align-last: center;
+}
+
 .about-process {
   margin-top: 8.4rem;
 }
@@ -2707,7 +2711,6 @@ html.no-csstransitions .home-content__main {
 
 .services-list .item-service::before {
   display: block;
-  content: counter(ctr, decimal-leading-zero) ".";
   counter-increment: ctr;
   margin-bottom: 4.8rem;
   font-family: "Libre Baskerville", serif;
